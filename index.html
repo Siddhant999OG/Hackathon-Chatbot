@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HatBot</title>
+</head>
+<body>
+    <nav class="bg-white">
+        <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+            <!--logo-->
+            <a href="/" class="cursor-pointer py-3 pr-7">
+                <img src="./images/hatbot.png" width="110px" height="30px" />
+            </a>
+            <ul class="flex space-x-6">
+                <li class="text-black font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    <a href="#">Payments</a>
+                    <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                </li>
+
+                <li class="text-black font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    <a href="#">Blogs</a>
+                    <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                </li>
+
+                <li class="text-black font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    <a href="#">Contact Us</a>
+                    <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
+                </li>
+                
+                <li class="text-black font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group" id="triggerButton">
+                    <a href="./bot-ui-master/chat.html">
+                        <img class="h-7" src="./images/download.png" alt="">
+                    </a>
+                    <!-- <a href="https://console.dialogflow.com/api-client/demo/embedded/c5d62575-b979-4977-a28c-10e864ec445f">
+                        <img class="h-7" src="./images/download.png" alt=""> 
+                    </a> -->
+                </li>
+            </ul>
+
+            <div class="flex space-x-6">
+                <button class="py-3 px-5 font-mullish text-black border-lightBlue rounded-sm text-sm font-bold">
+                    <a href="LoginPage.html">Log in</a>
+                </button>
+
+                <!-- <button class="py-3 px-4 bg-white font-mullish text-lightBlue300 border rounded-sm text-sm font-bold transition-all duration-200 hover:text-lightBlue500">
+                    <a href="darkLight.html"></a>
+                </button> -->
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Part-->
+    <section class="relative">
+        <div class="relative w-11/12 max-w-full mx-auto">
+            <img src="./images/desktop-illustration-afternoon-a27cfebe44f132aec4bc329bcd17644530e1c6ba0225fef208535219b0fb18d8.png" alt="" class="w-full max-w-full" />
+            <div class="absolute top-0 left-0 p-8 space-y-8 text-white">
+                <h1 class="font-mullish font-bold text-black text-[40px] leading-[1.2]">
+                    The home for hackathons
+                </h1>
+                <p class="font-mullish text-black text-[18px] leading-7 opacity-70">
+                    Where organizations and developers come together <br />
+                    to build, inspire, and innovate.
+                </p>
+            </div>
+        </div>               
+
+        <!--Shape Part-->
+        <div class="w-[100.05%] absolute left-0 right-0">
+            <img src="./images/hero-shape-ae834698.svg" alt=""
+            class="w-full object-fill*">
+        </div>
+    </section>
+
+    <div class="flex bg-slate-100 mx-10">
+        <div class="size-30 mx-10 mt-7">
+            <h2 class="font-bold ">Industry Veterans
+            </h2>
+            <span class="text-lightBlue">Trust Us</span>
+        </div>
+        <div class="flex justify-between">
+            <img class="mx-10" src="./images/logo-microsoft-f031e14cee2eed463f96ffb0dfb12c1673c267b26c121a8eeb84b7d73167aad6.svg" alt="">
+            <img class="mx-10" src="./images/logo-google-787fe6abad1dd82c9649d3df3bd69dd57f809a9e0ed03f50d34bd7fe99c65149.svg" alt="">
+            <img class="mx-10" src="./images/logo-meta-4dc0e3e51b1a51daf337cce5b8bf88248e03de5f091c71b19aa5bab51d300a13.svg" alt="">
+            <img class="mx-10" src="./images/logo-aws-b50597147463829bfe074684f7f08ce234a9533f8b6c664302bef1639976ff68.svg" alt="">
+            <img class="mx-10" src="./images/logo-okta-cd6c1ec184b5bf1dfc7de72c477f0a251730b4047e5469430437220edb683b69.svg" alt="">
+            <img class="mx-10" src="./images/logo-square-1b9e7550415fc4bbb5c2c8fcf3b4c3dfc79f88756ff7f5c2a4031914d7410c67.svg" alt="">
+            <img class="mx-10" src="./images/logo-atlassian-22de2f366987d618efd24409efd6d7e5512ba2ad70bc9179647912bd4827268b.svg" alt="">
+        </div>
+    </div>
+
+    <div class="text-center">
+        <p id="quote" class="font-bold text-[18px] mt-10 mb-10">This is the default quote.</p>
+    </div>
+    
+    <script src="quotes.js"></script>
+    
+    <footer class="bg-gray-800 py-5 text-white p-4 text-center align-bottom">
+        <div class="container mx-auto">
+            <p class="text-sm p-3 text-[15px]">&copy; 2024 HatBot. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    </body>
+</html>
